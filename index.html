@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section id="header">
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <a href="#about"
+                ><span class="color-span">01.</span><span><</span>about<span
+                  >></span
+                ></a
+              >
+            </li>
+            <li>
+              <a href="#skill"
+                ><span class="color-span">02.</span><span><</span>skills<span
+                  >></span
+                ></a
+              >
+            </li>
+            <li>
+              <a href="#protfolio"
+                ><span class="color-span">03.</span><span><</span>portfolio<span
+                  >></span
+                ></a
+              >
+            </li>
+            <li>
+              <a href="#contact"
+                ><span class="color-span">04.</span><span><</span>contact<span
+                  >></span
+                ></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header-space">
+          <div class="header-text">
+            <h6>Let Work Together!</h6>
+            <h3>Hi, i'm <span class="header-span">Wai Lin Oo</span></h3>
+
+            <h3><span class="header-span">a frontend beginner</span></h3>
+
+            <p class="para-text">
+              I am looking for a challenging work environment which encourage me
+              to continue learning new technology.
+            </p>
+
+            <button class="cv">
+              <a href="cv/wai_lin_oo_CV.pdf" download="wai_lin_oo_CV.pdf"
+                >Download CV</a
+              >
+            </button>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h1 class="sub-title">
+          <span class="color-span">01.</span><span><</span>a little about
+          me<span>></span> </span>
+        </h1>
+        <p class="para-text">
+          I am a final year Computer Science student who attended during
+          (2016-2020) academic years. As a CS student,I am eager to begin
+          applying academic learning to real world problems and projects. I am a
+          good learner,ambitious and commited to my work. I am currently
+          learning programming languages like HTML,CSS,JavaScript,bootstrap and
+          React JS.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skill">
+      <div class="container">
+        <h1 class="sub-title">
+          <span class="color-span">02.</span><span><</span>my skills<span
+          >></span></span>
+        </h1>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">
+            Programming
+          </p>
+          <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <div class="tab-box">
+            <ul>
+              <li><span>HTML</span></li>
+              <li><span>CSS</span></li>
+              <li><span>JavaScript</span></li>
+              <li><span>Bootstrap</span></li>
+              <li><span>React</span></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="tab-contents" id="education">
+          <ul>
+            <li>
+              <span> 2016-2020</span><br />University of Computer
+              Studies(Thaton)
+            </li>
+            <li><span>Final Year Student</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- protfolio -->
+
+    <section id="protfolio">
+      <div class="container">
+        <h1 class="sub-title">
+          <span class="color-span">03.</span><span><</span>my protfolio<span
+            >></span
+          ></span>
+        </h1>
+        <p class="para-text">When I learning programming languages ,I practiced with these projects.</p>
+        <div class="protfolios">
+          <div class="project">
+               <h3 class="project-title">
+                    Omifood project
+               </h3>
+               <p class="para-text"> A healthy meal delivered to your door every single day 
+               </p>
+              <div class="btn-group">
+                <a href="https://github.com/Mgwailinoo/omifood" target="_blank" class="button">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://mgwailinoo.github.io/omifood/" target="_blank" class="button">
+                  <i class="fa-solid fa-right-to-bracket"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project">
+              <h3 class="project-title">
+                   Media project
+              </h3>
+              <p class="para-text"> Media Website with HTML,CSS,JavaScript,JQuery and Bootstrap
+              </p>
+              
+             <div class="btn-group">
+               <a href="https://github.com/Mgwailinoo/media-project" target="_blank" class="button">
+                 <i class="fa-brands fa-github"></i>
+               </a>
+               <a href="https://mgwailinoo.github.io/media-project/" target="_blank" class="button">
+                 <i class="fa-solid fa-right-to-bracket"></i>
+               </a>
+             </div>
+           </div>
+           <div class="project">
+            <h3 class="project-title">
+                  Quote Generator
+            </h3>
+            <p class="para-text"> JavaScript Project with Quote Api
+            </p>
+           <div class="btn-group">
+             <a href="https://github.com/Mgwailinoo/JS-quote-generator" target="_blank" class="button">
+               <i class="fa-brands fa-github"></i>
+             </a>
+             <a href="https://mgwailinoo.github.io/JS-quote-generator/" target="_blank" class="button">
+               <i class="fa-solid fa-right-to-bracket"></i>
+             </a>
+           </div>
+         </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h1 class="sub-title">
+          <span class="color-span">04.</span><span><</span>contact<span
+            >></span
+          ></span>
+        </h1>
+        <div class="contact-space">
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i><p class="para-text"> No(21),Bo Sain Mhan Quarter,
+              Bo Min Khaung Street ,Bahan ,Yangon      
+                
+              </p>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <p class="para-text">wailinoowlo0218@gmail.com</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <p class="para-text">09789236859</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
